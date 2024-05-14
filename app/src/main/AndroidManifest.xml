@@ -10,18 +10,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.Light"
+        android:theme="@style/Theme.AppCompat.DayNight"
         tools:targetApi="31">
         <activity
-            android:name=".slot2.Slot23MainActivity"
+            android:name=".Slot3.Demo34MainActivity"
             android:exported="false" />
         <activity
-            android:name=".slot2.Slot2TestMainActivity"
-            android:exported="true">
-
-        </activity>
-        <activity
-            android:name=".slot2.Slot22MainActivity"
+            android:name=".Slot3.Demo3MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -30,23 +25,38 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".slot1.Slot12MainActivity"
+            android:name=".Slot3.Demo32MainActivity"
             android:exported="true">
 
         </activity>
+        <activity
+            android:name=".Slot3.Demo31MainActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".slot2.Slot23MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".slot2.Slot2TestMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".slot2.Slot22MainActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".slot1.Slot12MainActivity"
+            android:exported="false" />
         <activity
             android:name=".slot2.Slot2MainActivity"
-            android:exported="false">
-
-        </activity>
+            android:exported="false" />
         <activity
             android:name=".slot1.Slot1MainActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true"
+            android:exported="false"
             android:label="@string/app_name"
             android:theme="@style/Theme.MyApplication" />
     </application>
