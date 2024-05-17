@@ -13,10 +13,12 @@
         android:theme="@style/Theme.AppCompat.DayNight"
         tools:targetApi="31">
         <activity
-            android:name=".Slot3.Demo34MainActivity"
-            android:exported="false" />
+            android:name=".slot4.Demo42MainActivity"
+            android:exported="true">
+
+        </activity>
         <activity
-            android:name=".Slot3.Demo3MainActivity"
+            android:name=".slot4.Demo41MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,15 +27,19 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Slot3.Demo32MainActivity"
+            android:name=".Slot3.Demo34MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Slot3.Demo3MainActivity"
             android:exported="true">
 
         </activity>
         <activity
+            android:name=".Slot3.Demo32MainActivity"
+            android:exported="true" />
+        <activity
             android:name=".Slot3.Demo31MainActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".slot2.Slot23MainActivity"
             android:exported="false" />
@@ -42,9 +48,7 @@
             android:exported="false" />
         <activity
             android:name=".slot2.Slot22MainActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".slot1.Slot12MainActivity"
             android:exported="false" />
