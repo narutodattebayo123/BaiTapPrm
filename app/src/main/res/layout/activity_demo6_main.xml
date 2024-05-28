@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".slot6.Demo6MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Quan ly san pham"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/demo61TxtMaSP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ma san pham" />
+
+    <EditText
+        android:id="@+id/demo61TxtTenSP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ten san pham" />
+
+    <EditText
+        android:id="@+id/demo61TxtSLSP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="So luong san pham"
+        android:inputType="number" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/demo61BtnLoad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Display" />
+
+        <Button
+            android:id="@+id/demo61BtnAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Display" />
+
+        <Button
+            android:id="@+id/demo61BtnUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Display" />
+
+        <Button
+            android:id="@+id/demo61BtnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Display" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/demo61Lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
