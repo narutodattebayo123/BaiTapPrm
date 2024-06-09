@@ -5,10 +5,10 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".slot9.Demo91MainActivity">
+    tools:context=".slot9.Demo101CartActivity">
 
     <ListView
-        android:id="@+id/demo91Listview"
+        android:id="@+id/demo101_cartActivity_ListView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:layout_editor_absoluteX="1dp"
