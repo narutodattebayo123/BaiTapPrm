@@ -16,13 +16,7 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".slot9.Demo101CartActivity"
-            android:exported="false" />
-        <activity
-            android:name=".slot9.Demo101MainActivity"
-            android:exported="false" />
-        <activity
-            android:name=".slot9.Demo91MainActivity"
+            android:name=".slot11.Demo111MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -30,6 +24,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".slot9.Demo101CartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".slot9.Demo101MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".slot9.Demo91MainActivity"
+            android:exported="true"></activity>
         <activity
             android:name=".slot8.Demo84MainActivity"
             android:exported="true"
