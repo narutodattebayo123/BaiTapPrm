@@ -1,15 +1,18 @@
 package com.example.myapplication.slot11;
 
 import retrofit2.Call;
+import retrofit2.http.Field;
 import retrofit2.http.FormUrlEncoded;
 import retrofit2.http.POST;
-import retrofit2.http.Field;
 
-public interface InterfaceInsertPrd {
+public interface InterfaceUpd {
     @FormUrlEncoded
-    @POST("create_product.php")
-    Call<SvrResponsePrd> insertPrd(
+    @POST("update_product.php")
+    Call<SvrResponseUpd> updateExe(
+            @Field("pid") String pid,
             @Field("name") String name,
             @Field("price") String price,
-            @Field("description") String description);
+            @Field("description") String description
+    );
+
 }

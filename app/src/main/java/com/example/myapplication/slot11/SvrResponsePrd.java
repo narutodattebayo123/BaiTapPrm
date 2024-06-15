@@ -1,6 +1,6 @@
 package com.example.myapplication.slot11;
 
-public class SvrResponePrd {
+public class SvrResponsePrd {
     private Prd products;
     private String message;
 
@@ -8,15 +8,7 @@ public class SvrResponePrd {
         return products;
     }
 
-    public void setProducts(Prd products) {
-        this.products = products;
-    }
-
     public String getMessage() {
         return message;
-    }
-
-    public void setMessage(String message) {
-        this.message = message;
     }
 }
