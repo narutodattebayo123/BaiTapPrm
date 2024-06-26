@@ -29,7 +29,7 @@ public class Demo111MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_demo111_main);
+        setContentView(R.layout.activity_demo111_main2);
         txt0=findViewById(R.id.demo111Txt0);
         txt1=findViewById(R.id.demo111Txt1);
         txt2=findViewById(R.id.demo111Txt2);
